@@ -6,8 +6,8 @@ import matplotlib.dates as mdates
 from datetime import datetime
 
 # MQTT Verbindungsparameter
-app_id = "mkr1123"  
-access_key = "NNSXS.3WUVUW55QUW4GJHR47CW7LRZXGRY33ADAUVHNJA.WFHSLOJMN2OJEQ52YFT3EV6J7ZQZPPECFBF62SJN2VUXHLVVXY7A"
+app_id = "XXXXXXXXXXX"  
+access_key = "XXXXXXXXXXXXXXX"
 mqtt_server = "eu1.cloud.thethings.network"
 mqtt_port = 1883
 topic = f"v3/{app_id}@ttn/devices/+/up"
