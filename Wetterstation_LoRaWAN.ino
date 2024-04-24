@@ -20,8 +20,8 @@
 #define BME_CS 10
 #define SEALEVELPRESSURE_HPA (1013.25)
 
-const char *appEui = "3433434343434344";                  //
-const char *appKey = "21FA2BE14FFA8914F6693A6AE8E95BA3";  //
+const char *appEui = "XXXXXXXXXXXXXXX";                  //
+const char *appKey = "XXXXXXXXXXXXXXXXXXXXX";  //
 
 
 Adafruit_BME680 bme;  // I2C
