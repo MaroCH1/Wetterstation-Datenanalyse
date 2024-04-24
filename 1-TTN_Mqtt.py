@@ -2,8 +2,8 @@ import paho.mqtt.client as mqtt
 import json
 
 # Verbindungsparameter und Topic einstellen
-app_id = "mkr1123"
-access_key = "NNSXS.3WUVUW55QUW4GJHR47CW7LRZXGRY33ADAUVHNJA.WFHSLOJMN2OJEQ52YFT3EV6J7ZQZPPECFBF62SJN2VUXHLVVXY7A"
+app_id = "XXXXXXXXXXXXX"
+access_key = "XXXXXXXXXXXXXXXX"
 mqtt_server = "eu1.cloud.thethings.network"
 mqtt_port = 1883
 topic = f"v3/{app_id}@ttn/devices/+/up"
