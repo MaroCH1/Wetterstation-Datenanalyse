@@ -8,13 +8,13 @@ mqtt.Client().enable_logger(logger=None)
 # TTN-Konfiguration
 ttn_broker = 'eu1.cloud.thethings.network'
 ttn_port = 1883
-ttn_app_id = 'mkr1123'
-ttn_access_key = 'NNSXS.3WUVUW55QUW4GJHR47CW7LRZXGRY33ADAUVHNJA.WFHSLOJMN2OJEQ52YFT3EV6J7ZQZPPECFBF62SJN2VUXHLVVXY7A'
+ttn_app_id = 'XXXXXXXXX'
+ttn_access_key = 'XXXXXXXXXXX'
 ttn_topic = f'v3/{ttn_app_id}@ttn/devices/+/up'
 
 # Adafruit Konfiguration
-adafruit_username = 'hakatak'
-adafruit_key = 'aio_VejT08Ed3HA6zVlhrWJuLa124oIN'
+adafruit_username = 'XXXXXXX'
+adafruit_key = 'XXXXXXXXXXX'
 adafruit_broker = 'io.adafruit.com'
 adafruit_port = 1883
 temperature_feed = f'{adafruit_username}/feeds/tempfeed'
