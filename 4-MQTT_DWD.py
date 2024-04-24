@@ -3,8 +3,8 @@ import requests
 import paho.mqtt.client as mqtt
 
 # Konfiguration der TTN-Anwendung
-app_id = "mkr1123"
-access_key = "NNSXS.3WUVUW55QUW4GJHR47CW7LRZXGRY33ADAUVHNJA.WFHSLOJMN2OJEQ52YFT3EV6J7ZQZPPECFBF62SJN2VUXHLVVXY7A"
+app_id = "XXXXXXXXXXXXXXXXX"
+access_key = "XXXXXXXXXXXXXXXXXX"
 mqtt_server = "eu1.cloud.thethings.network"
 mqtt_port = 1883
 topic = f"v3/{app_id}@ttn/devices/+/up"
@@ -31,7 +31,7 @@ def on_message(client, userdata, msg):
         print(f"Wetterstation-Daten - Temperatur: {mqtt_temperature} °C, Luftfeuchtigkeit: {mqtt_humidity}%, Windrichtung: {mqtt_winddirection}°, Windgeschwindigkeit: {mqtt_windspeed/100} km/h, Regenmenge: {mqtt_rainamount} mm")
 
         # Abrufen der WeatherAPI-Daten
-        API_key = "ab2c23a903d5415d957214724242203"
+        API_key = "XXXXXXXXXXXXXXXXX"
         weatherapi_url = f"http://api.weatherapi.com/v1/current.json?key={API_key}&q=Dortmund"
         response = requests.get(weatherapi_url)
         weatherapi_data = response.json()
